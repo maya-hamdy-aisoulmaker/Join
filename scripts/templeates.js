@@ -107,7 +107,7 @@ function getAddTaskTemplate() {
         <input type="text" id="due-date" class="task-date-addTask_template" name="due-date" placeholder="dd/mm/yyyy"
           pattern="\\d{2}/\\d{2}/\\d{4}" inputmode="numeric" readonly>
        <img 
-  src="/addTask_code/icons_addTask/separatedAddTaskIcons/event.svg" 
+  src="../addTask_code/icons_addTask/separatedAddTaskIcons/event.svg" 
   alt="Event Icon" 
   class="event-icon-addTask_template"
   onclick="openPickerTemplate()">
@@ -120,14 +120,14 @@ function getAddTaskTemplate() {
       <div class="priority-group-addTask_template">
 
         <button type="button" class="priority-btn-urgent-addTask_template" onclick="setPriorityAddTask('urgent')">Urgent
-          <img class="addTask-icons-addTask_template" src="/addTask_code/icons_addTask/separatedAddTaskIcons/urgent_icon.svg" alt="urgent icon">
+          <img class="addTask-icons-addTask_template" src="../addTask_code/icons_addTask/separatedAddTaskIcons/urgent_icon.svg" alt="urgent icon">
         </button>
 
         <button type="button" class="priority-btn-medium-addTask_template" onclick="setPriorityAddTask('medium')">Medium
-          <img class="addTask-icons-addTask_template" src="/addTask_code/icons_addTask/separatedAddTaskIcons/3_striche.svg" alt="sum icon">
+          <img class="addTask-icons-addTask_template" src="../addTask_code/icons_addTask/separatedAddTaskIcons/3_striche.svg" alt="sum icon">
         </button>
         <button type="button" class="priority-btn-low-addTask_template" onclick="setPriorityAddTask('low')">Low
-          <img class="addTask-icons-addTask_template" src="/addTask_code/icons_addTask/separatedAddTaskIcons/low_icon.svg"
+          <img class="addTask-icons-addTask_template" src="../addTask_code/icons_addTask/separatedAddTaskIcons/low_icon.svg"
             alt="2 arrows in green showing up">
         </button>
       </div>
@@ -138,7 +138,7 @@ function getAddTaskTemplate() {
     <p class="section-heading-addTask_template"><strong>Assign to</strong> (optional)</p>
     <div class="assign-select-addTask_template assign-select-addTask_page" id="assign-select" onclick="toggleAssignDropdown(event)">
       <span class="assign-placeholder-addTask_template assign-placeholder-addTask_page">Select contact to assign</span>
-      <img src="/addTask_code/icons_addTask/separatedAddTaskIcons/arrow_drop_down.svg" alt="Open assign menu" class="assign-arrow-addTask_template assign-arrow-addTask_page">
+      <img src="../addTask_code/icons_addTask/separatedAddTaskIcons/arrow_drop_down.svg" alt="Open assign menu" class="assign-arrow-addTask_template assign-arrow-addTask_page">
     </div>
 
     <div class="assign-dropdown-addTask_template assign-dropdown-addTask_page" aria-label="Assign to options" role="listbox" id="contacts-containerID">
@@ -173,7 +173,7 @@ function getAddTaskTemplate() {
   </main>
   <div class="btn-done-wrapper-addTask_template">
   <button class="btn-done-addTask_template btn-with-svg-addTask_template" onclick="createTask()">Create Task
-    <img src="/addTask_code/icons_addTask/separatedAddTaskIcons/check.svg" alt="Check icon" class="check-icon-addTask_template">
+    <img src="../addTask_code/icons_addTask/separatedAddTaskIcons/check.svg" alt="Check icon" class="check-icon-addTask_template">
   </button>
 </div>
    `;
