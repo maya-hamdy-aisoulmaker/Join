@@ -87,7 +87,7 @@ function resetSubtaskInput(content) {
 function setupSubmitButton(content, task) {
   let submitBtn = content.querySelector(".btn-done-addTask_template"); if (!submitBtn) return;
   submitBtn.removeAttribute("onclick"); submitBtn.onclick = function () { saveTaskEdits(task.id); };
-  submitBtn.innerHTML = 'OK <img src="/addTask_code/icons_addTask/separatedAddTaskIcons/check.svg" alt="Check icon" class="check-icon-addTask_template">';
+  submitBtn.innerHTML = 'OK <img src="../addTask_code/icons_addTask/separatedAddTaskIcons/check.svg" alt="Check icon" class="check-icon-addTask_template">';
 }
 
 /** Normalizes subtask progress and syncs saved checkbox states. @param {Object} task @returns {void} */
