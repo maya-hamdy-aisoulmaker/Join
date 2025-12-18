@@ -172,7 +172,7 @@ addtask_template.css * {
 
 .task-select-addTask_template {
   appearance: none;
-  background-image: url("/addTask_code/icons_addTask/separatedAddTaskIcons/arrow_drop_down.svg");
+  background-image: url("../addTask_code/icons_addTask/separatedAddTaskIcons/arrow_drop_down.svg");
   background-repeat: no-repeat;
   background-position: right 12px center;
   background-size: 20px;
